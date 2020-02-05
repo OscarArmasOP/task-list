@@ -10,7 +10,7 @@
             nuevaTarea = document.createElement("li"),
             enlace = document.createElement("a"),
             contenido = document.createTextNode(tarea);
-
+        //Tarea valida
         if (tarea == "") {
             tareaInput.setAttribute("placeholder", "Agrega una tarea valida");
             tareaInput.className = "error";
@@ -24,9 +24,9 @@
         nuevaTarea.appendChild(enlace);
         //Agregamos la nueva tarea a la lista
         lista.appendChild(nuevaTarea);
-
+        //Regresar 
         tareaInput.value = "";
-
+        //Borrar tarea
         for (var i = 0; i <= lista.children.length - 1; i++) {
             lista.children[i].addEventListener("click", function() {
                 this.parentNode.removeChild(this);

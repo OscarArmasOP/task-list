@@ -9,7 +9,21 @@
 body {
     background: #FAFAFA;
     font-family: arial, helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 24px;
+}
+
+.wrapTittle {
+    margin: auto;
+    max-width: 800px;
+    width: 15%;
+}
+
+.titulo {
+    background: rgb(8, 16, 83);
+    border-top: 20px solid rgb(3, 19, 54);
+    color: #fff;
+    padding: 30px 0;
+    width: 100%;
 }
 
 .wrap {
@@ -19,8 +33,8 @@ body {
 }
 
 .principal {
-    background: rgb(40, 18, 121);
-    border-top: 20px solid #D32F2F;
+    background: rgb(255, 255, 255);
+    /*border-top: 20px solid rgb(7, 26, 68);*/
     color: #fff;
     padding: 50px 0;
     width: 100%;
@@ -38,14 +52,14 @@ body {
 }
 
 .principal .formulario input[type=text].error {
-    border: 5px solid #D32F2F;
-    color: red;
+    border: 5px solid #be1919;
+    color: rgb(131, 33, 33);
 }
 
 .principal .formulario .boton {
     background: none;
-    border: 1px solid #D32F2F;
-    color: #fff;
+    border: 1px solid rgb(47, 113, 211);
+    color: rgb(2, 6, 63);
     display: inline-block;
     font-size: 16px;
     padding: 15px;
